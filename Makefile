@@ -1,7 +1,7 @@
 .PHONY: generate
 
-definitions = ~/src/SigmaLink/mavlink/message_definitions/fotokite.xml
-output = ~/src/SigmaLink/jsmavlink/mavlink.js
+definitions = ../SigmaLink/mavlink/message_definitions/fotokite.xml
+output = ../SigmaLink/jsmavlink/mavlink.js
 
 generate:
 	python3 -m venv env && \
